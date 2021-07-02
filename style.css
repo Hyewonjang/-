@@ -1,0 +1,552 @@
+/* initial_screen */
+body{
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    margin:0px;
+}
+h1{
+    position: absolute;
+    width: 218px;
+    height: 43px;
+    left: 86px;
+    top: 86px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #37B9A1; 
+}
+#subtitle{
+    position: absolute;
+    width: 239px;
+    height: 75px;
+    left: 76px;
+    top: 231px;
+    border-radius: 100px/35px;
+
+    background: rgba(55, 185, 161, 0.68);
+}
+
+#subtitle #text{
+    position: absolute;
+    width: 182px;
+    height: 46px;
+    left: 30px;
+    top: 20px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+}
+
+#initial_image .picture{
+    position: absolute;
+    width: 105px;
+    height: 126px;
+    left: 144px;
+    top: 333px;
+}
+
+#login{
+    position: absolute;
+    width: 280px;
+    height: 63px;
+    left: 59px;
+    top: 520px;
+    border-radius: 100px/50px;
+
+    background: #37B9A1;
+}
+
+#login #text{
+    position: absolute;
+    width: 86px;
+    height: 39px;
+    left: 105px;
+    top: 13px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+}
+
+#signup{
+    position: absolute;
+    width: 280px;
+    height: 63px;
+    left: 59px;
+    top: 630px;
+    border-radius: 100px/50px;
+
+    background: #37B9A1;
+}
+
+#signup #text{
+    position: absolute;
+    width: 119px;
+    height: 39px;
+    left: 95px;
+    top: 13px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+}
+
+/* signup1 */
+
+#before{
+    position: absolute;
+    left: 27.72px;
+    top:35px;
+
+}
+#before a{
+    color:#37B9A1;
+    text-decoration: none;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+}
+#signup_title{
+    position: absolute;
+    width: 197px;
+    height: 42px;
+    left: 92px;
+    top: 65px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 42px;
+
+    color: #37B9A1;
+}
+
+#signup_subtitle{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 134px;
+    top: 115px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #37B9A1; 
+}
+
+#signup1_signuppicture .picture{
+    position: absolute;
+    width: 370px;
+    height: 542px;
+    left: 0px;
+    top: 160px;
+}
+
+/* #signup1_block1{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 11px;
+    top: 260px;
+    border:solid black 1px;
+    background-color: white;
+}
+
+#signup1_block1 #text{
+    position: absolute;
+    width: 191px;
+    height: 20px;
+    left: 120px;
+    top: 9px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+} */
+
+#signup1_checkbox{
+    position: absolute;
+    height:200px;
+    left: 9px;
+    top: 328px;
+    background-color: white;
+}
+
+#signup1_checkbox input{ vertical-align:-3px; }
+
+input[type="checkbox"] {
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+
+#signup1_block2{
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    left: 11px;
+    top: 642px;
+
+    background: #37B9A1;
+}
+
+#signup1_block2 a{
+    position: absolute;
+    width: 191px;
+    height: 20px;
+    left: 120px;
+    top: 13px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* signup2 */
+
+#signup2_picture .picture{
+    position: absolute;
+    width: 370px;
+    left: 0px;
+    top: 165px;
+}
+
+#signup2_info1{
+    position: absolute;
+    width: 305px;
+    height: 120px;
+    left: 33px;
+    top : 260px;
+    background-color: rgb(230, 224, 224);
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#signup2_info1 #name, #birth{
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+#signup2_info1 #input{
+    background-color: transparent;
+    border: solid black 1px;
+    font-size:15px;
+    margin-top:2px;
+}
+
+#signup2_info2{
+    position: absolute;
+    width: 305px;
+    height: 120px;
+    left: 33px;
+    top : 380px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;        }
+
+#signup2_info2 #id, #pw, #repw, #phonenumber, #email{
+    margin-top:10px;
+}
+
+#signup2_info2 #input{
+    width: 297px;
+    height: 50px;
+}
+
+#signup2_next{
+    position: absolute;
+    width: 27.14px;
+    height: 23.83px;
+    left: 300px;
+    top: 700px;
+/*             
+    border-top: 10px solid transparent;
+    border-left: 22.5px solid  #37B9A1;
+    border-bottom: 10px solid transparent; */
+}
+
+#signup2_next a{
+    color: #37B9A1;
+    font-size:60px;
+    text-decoration: none;
+}
+
+/* signup3 */
+
+#signup3_field1{
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    left: 45px;
+    top: 266px;
+    border-radius: 100px/35px;
+
+    background: #37B9A1;
+}
+
+#signup3_field1 #text{
+    position: absolute;
+    width: 82px;
+    height: 31px;
+    left: 15px;
+    top: 7px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#signup3_detail1{
+    display: inline;
+    position: absolute;
+    width: 95px;
+    height: 20px;
+    left: 168px;
+    top: 279px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#signup3_buttonline1, #signup3_buttonline2, #signup3_buttonline3{
+    display: inline-block;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 338px;
+}
+
+.signup3_ftype{
+    width: 75px;
+    height:37px;
+    border:none;
+    position: relative;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 100px/20px;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    margin: 7px 7px;
+    cursor: pointer;
+}
+
+#signup3_field2{
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    left: 45px;
+    top: 570px;
+    border-radius: 100px/35px;
+
+    background: #37B9A1;
+}
+
+#signup3_field2 #text{
+    position: absolute;
+    width: 82px;
+    height: 31px;
+    left: 15px;
+    top: 7px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#signup3_detail2{
+    display: inline;
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 160px;
+    top: 583px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#signup3_info{
+    position: absolute;
+    width: 286px;
+    height: 54px;
+    left: 51px;
+    top: 626px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px; 
+}
+
+#signup3_info #fphonenumber{
+    margin-top:10px;
+}
+
+#signup3_info #input{
+    width: 272px;
+    height: 50px;
+    background-color: rgba(229, 229, 229, 1);
+    border:none;
+    margin-bottom:10px;
+}
+
+#signup3_complete{
+    position: absolute;
+    width: 73px;
+    height: 33px;
+    left: 253px;
+    top: 776px;
+    border-radius: 100px/35px;
+
+    background: #37B9A1;
+}
+
+#signup3_complete #text{
+    position: absolute;
+    width: 82px;
+    height: 31px;
+    left: 22px;
+    top: 4.5px;
+}
+
+#signup3_complete a{
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* signup4 */
+
+#signup4_picture1 .picture{
+    position: absolute;
+    width: 370px;
+    left: 0px;
+    top: 150px;
+}
+
+#signup4_content{
+    position: absolute;
+    width: 285px;
+    height: 159px;
+    left: 42px;
+    top: 306px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #37B9A1;
+}
+
+#signup4_picture2 .picture{
+    position: absolute;
+    width: 128px;
+    height: 203px;
+    left: 123px;
+    top: 473px;
+}
+
+#signup4_tutorial{
+    position: absolute;
+    width: 127px;
+    height: 49px;
+    left: 133px;
+    top: 713px;
+    border-radius: 100px/35px;
+
+    background: #37B9A1;
+}
+
+#signup4_tutorial #text{
+    position: absolute;
+    width: 127px;
+    height: 31px;
+    left: 20px;
+    top: 9.5px;
+}
+
+#signup4_tutorial a{
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    
+    text-decoration: none;
+    text-align: center;
+
+    color: #FFFFFF;
+}
